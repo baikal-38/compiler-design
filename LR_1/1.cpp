@@ -6,7 +6,8 @@ int main()
     std::string str1 = "He())llo, World!";
     int sum1 = 0;
     
-    for (char &ch : str1) {
+    for (char &ch : str1)
+    {
        //std::cout << ch << std::endl;
        if (ch == '(')  sum1++;
        if (ch == ')')  sum1--;
