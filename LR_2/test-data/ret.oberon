@@ -1,0 +1,8 @@
+MODULE Fibonacci;
+   PROCEDURE calc: INTEGER;
+      VAR a, b: INTEGER;
+   BEGIN
+      RETURN 42; (* The Answer *)
+   END calc;
+BEGIN
+END Fibonacci.
